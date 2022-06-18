@@ -13,4 +13,9 @@ Considering the fact that the heart moves in a periodic cycle, there are two pat
 
 ![myfile](Images/Figure-2.png)
 
+## How to run the code
+The code is written with MATLAB R2021a with the help of image processing toolbox. Just run the Main.m in your code editor. The output files will be automatically generated including the gif video above. To use the code on your own data, you need to replace the M and B matrices which respectively show the raw cine MRI image for all time steps and the segmentation mask at end diastole. Also, variable ES within the Main.m needs to be replaced with your end-systolic time frame. More details are commented within the file. 
+
+## Citation
+Arash Rabbani; Hao Gao; Dirk Husmeier, Temporal extrapolation of heart wall segmentation in cardiac magnetic resonance images via pixel tracking, Proceedings of the 4th International Conference on Statistics: Theory and Applications (ICSTA'22), Prague, Czech Republic – July 28- 30, 2022.
 
