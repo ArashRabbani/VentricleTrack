@@ -9,5 +9,8 @@ In this method, we initially extract the superpixels cells of the raw image. The
 
 ![myfile](Images/Figure-1.png)
 
+Considering the fact that the heart moves in a periodic cycle, there are two pathways in the time domain that we can follow to reach from the end of diastole to the end of systole. The apparent choice is to track the heart ventricular movement in the same direction as time passes, and the second choice is to assume that the frames are happening in the reverse order. These two pathways lead to two different pixel tracking results for the end of systole as illustrated in Figure below. To improve the predictions, these two approximations can be combined to make an averaged mask and help to reach a more generalized result, which is possibly less dependent on the sequence of the tracked frames. 
+
+![myfile](Images/Figure-2.png)
 
 
