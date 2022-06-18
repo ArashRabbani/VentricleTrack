@@ -7,7 +7,7 @@ In this repository, we have tailored a pixel tracking method for temporal extrap
 ## How it workes?
 In this method, we initially extract the superpixels cells of the raw image. Then by overlaying the segmentation mask from the previous frame on top of the superpixels cells of the current frame, we decide that each of the cells belongs to which label. To assign a uniform label value to each of the current frame cells, the most repeated label value of the previous mask in each of the cells is calculated. This basically means that if the majority of the cell is occupied by a label, we assign that value to the whole cell. As far as spatial changes from one frame to another are not larger than the average size of the cells, the method is promising to work. 
 
-![myfile](Images/Slide-1.png)
+![myfile](Images/Figure-1.png)
 
 
 
